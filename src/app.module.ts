@@ -8,10 +8,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       "type": "postgres",
       "host": "localhost",
       "port": 5432,
-      "username": "postgres",
-      "password": "pasqua123",
-      "database": "apisimples",
-     // "synchronize": true,
+      "username": "SEU_USUARIO",
+      "password": "SUA_SENHA",
+      "database": "SUA_DATABASE",
+      "synchronize": true,
       "logging": false,
       "entities": [ __dirname + '/**/*.model{.js,.ts}']
     }
